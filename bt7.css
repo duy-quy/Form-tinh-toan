@@ -1,0 +1,64 @@
+*{
+    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.container{
+    width: 100%;
+    padding: 30px;
+    border: 2px solid green;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.container label{
+    width: 18%;
+    text-align: right;
+}
+
+.container input{
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+
+.phep_tinh{
+    display: flex;
+    justify-content: space-between;
+    padding: 10% 50px;
+}
+
+.phep_tinh button{
+    background-color: green;
+    width: 60px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: white;
+    margin: 0 5px;
+}
